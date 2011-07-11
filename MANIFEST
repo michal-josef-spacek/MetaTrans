@@ -7,13 +7,13 @@ lib/MetaTrans/Base.pm
 lib/MetaTrans/Languages.pm
 lib/MetaTrans/SeznamCz.pm
 lib/MetaTrans/SlovnikCz.pm
+lib/MetaTrans/SlovnikZcuCz.pm
 lib/MetaTrans/SmsCz.pm
 lib/MetaTrans/UltralinguaNet.pm
 lib/MetaTrans/WordbookCz.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-META.yml			# Will be created by "make dist"
 README
 t/00.load.t			# load test
 t/pod.t				# pod coverage test
