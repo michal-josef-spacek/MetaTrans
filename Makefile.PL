@@ -1,13 +1,18 @@
+# Pragmas.
 use strict;
 use warnings;
 use vars qw(%ENV);
+
+# Modules.
 use ExtUtils::MakeMaker;
 
+# Definition.
 WriteMakefile(
     NAME                => 'MetaTrans',
     AUTHOR              => 'Jan Pomikalek <xpomikal@fi.muni.cz>',
     VERSION_FROM        => 'lib/MetaTrans.pm',
     ABSTRACT_FROM       => 'lib/MetaTrans.pm',
+    LICENSE             => 'perl',
     EXE_FILES           => [ 'bin/metatrans', 'bin/runtrans' ],
     PREREQ_PM => {
         'Config::Find'          => 0,
