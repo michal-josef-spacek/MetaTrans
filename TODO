@@ -1,0 +1,43 @@
+TODO
+====
+2. Opravit chybu vykreslovani, kde pri zadani ahoj pro cze2spa preklad na
+   wordbook.cz se vrati dva radky v metatrans. Je to asi nekde v metatrans
+   skriptu. runtrans funguje spravne.
+3. Do runtrans pridat osetreni neexistence modulu.
+6. Plugin pro Merriam-Webster
+7. Plugin pro Oxford.
+8. Plugin pro Urban Dictionary.
+9. Plugin pro Wiktionary.
+11. Plugin pro dicts.info
+12. Kdyz nic nenajde, tak se hodi warning nekde v MetaTrans.pm (648)
+    Use of uninitialized value $_ in length at /usr/local/share/perl/5.10.0/MetaTrans.pm line 648.
+13. v metatrans skriptu by bylo dobre zobrazovat, ze z daneho serveru neprisly
+    zadne data. (nebyl preklad).
+14. Sehnat nejak konverzi iso 639-1 na iso 639-2, abych mohl google jazyky
+    vlozit do MetaTrans.
+15. MetaTrans::Languages je mozna spatne. cze je 639-2 bibliograficka zkratka.
+    Idealni by bylo tady mit 639-3 zkratky.
+16. Chyba pri pouziti slovnik.seznam.cz. Kdyz zadam krtek v eng2cze, tak
+    nenalezne nic a vrati preklad cze2eng. Coz nemam osetrene.
+17. Plugin pro http://slovnik.azet.sk/
+18. Plugin pro http://slovnik.cyberspace.sk/
+19. Plugin pro http://webslovnik.zoznam.sk/
+20. Plugin pro http://slovniky.lingea.cz/
+21. Plugin pro http://www.rewin.cz/WebForm1.aspx
+22. Plugin pro http://dictionary.cambridge.org/
+    (několik slovníků, idiomy, frázová slovesa…)
+23.
+
+Applied
+=======
+1. Zprovoznit vsechny moduly.
+OK [20090903] skim
+
+4. Pro wordbook.cz pridat der die das v nemcine. Je to treti sloupec.
+OK [20090905] skim
+
+5. Zprovoznit ultralingua.net
+OK [20090905] skim
+
+10. Plugin pro slovnik.zcu.cz
+OK [20090905] skim
