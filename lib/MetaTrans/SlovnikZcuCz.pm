@@ -1,3 +1,5 @@
+=encoding utf8
+
 =head1 NAME
 
 MetaTrans::SlovnikZcuCz - MetaTrans plug-in for L<http://slovnik.zcu.cz/>
@@ -6,17 +8,19 @@ MetaTrans::SlovnikZcuCz - MetaTrans plug-in for L<http://slovnik.zcu.cz/>
 
 package MetaTrans::SlovnikZcuCz;
 
+# Pragmas.
+use base qw(MetaTrans::Base);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA);
-use MetaTrans::Base qw(convert_to_utf8);
 
+# Modules.
 use Encode qw(decode_utf8 encode);
 use HTTP::Request;
+use MetaTrans::Base qw(convert_to_utf8);
 use URI::Escape;
 
-$VERSION = do { my @r = (q$Revision: 1.1 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
-@ISA     = qw(MetaTrans::Base);
+# Version.
+our $VERSION = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 
@@ -37,17 +41,17 @@ sub new
     my $class   = shift;
     my %options = @_;
 
-    $options{host_server} = "slovnik.zcu.cz"
+    $options{host_server} = 'slovnik.zcu.cz'
         unless (defined $options{host_server});
 
     my $self = new MetaTrans::Base(%options);
     $self = bless $self, $class;
 
     # set supported languages
-    $self->set_languages("cze", "eng");
+    $self->set_languages('cze', 'eng');
 
-    $self->set_dir_1_to_all("cze");
-    $self->set_dir_all_to_1("cze");
+    $self->set_dir_1_to_all('cze');
+    $self->set_dir_all_to_1('cze');
 
     return $self;
 }
@@ -81,7 +85,7 @@ sub create_request
     # convert to iso-8859-2
     $expression = uri_escape(encode('iso-8859-2', $expression));
 
-    my $request = HTTP::Request->new(POST => "http://slovnik.zcu.cz/online/index.php");
+    my $request = HTTP::Request->new(POST => 'http://slovnik.zcu.cz/online/index.php');
     $request->content_type('application/x-www-form-urlencoded');
     $request->content("word=$expression");
 
@@ -178,11 +182,11 @@ be notified of progress on your bug as I make changes.
 
 =head1 AUTHOR
 
-Michal Spacek, C<< <skim@cpan.org> >>
+Michal Špaček, C<< <skim@cpan.org> >>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 Michal Spacek, All Rights Reserved.
+Copyright 2009 Michal Špaček, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
