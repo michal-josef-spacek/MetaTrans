@@ -171,7 +171,7 @@ use HTML::Entities;
 use LWP::UserAgent;
 use HTTP::Response;
 
-$VERSION     = do { my @r = (q$Revision: 1.3 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
+$VERSION     = 1.06;
 @ISA         = qw(Exporter);
 @EXPORT_OK   = qw(is_exact_match is_match_at_start is_match_expr is_match_words
     convert_to_utf8 M_EXACT M_START M_EXPR M_WORDS M_ALL);

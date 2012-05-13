@@ -14,7 +14,7 @@ use MetaTrans::Base qw(convert_to_utf8);
 use Encode;
 use HTTP::Request;
 
-$VERSION = do { my @r = (q$Revision: 1.2 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
+$VERSION = 1.06;
 @ISA     = qw(MetaTrans::Base);
 
 =head1 CONSTRUCTOR METHODS

@@ -20,7 +20,7 @@ use warnings;
 use vars qw($VERSION @ISA @EXPORT_OK);
 use Exporter;
 
-$VERSION   = do { my @r = (q$Revision: 1.1.1.1 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
+$VERSION   = 1.06;
 @ISA       = qw(Exporter);
 @EXPORT_OK = qw(is_known_lang get_lang_by_code get_code_by_lang
     get_langs_hash get_langs_hash_rev);

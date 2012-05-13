@@ -15,7 +15,7 @@ use Encode;
 use HTTP::Request;
 use URI::Escape;
 
-$VERSION = do { my @r = (q$Revision: 1.3 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
+$VERSION = 1.06;
 @ISA     = qw(MetaTrans::Base); # we derrive from MetaTrans::Base
 
 =head1 CONSTRUCTOR METHODS

@@ -13,7 +13,7 @@ use MetaTrans::Base;
 
 use HTTP::Request;
 
-$VERSION = do { my @r = (q$Revision: 1.3 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
+$VERSION = 1.06;
 @ISA     = qw(MetaTrans::Base);
 
 =head1 CONSTRUCTOR METHODS
