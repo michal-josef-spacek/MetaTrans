@@ -5,6 +5,7 @@ config/metatrans.conf		# configuration file for metatrans
 lib/MetaTrans.pm
 lib/MetaTrans/Base.pm
 lib/MetaTrans/Languages.pm
+lib/MetaTrans/LinguaTranslateGoogle.pm
 lib/MetaTrans/SeznamCz.pm
 lib/MetaTrans/SlovnikCz.pm
 lib/MetaTrans/SlovnikZcuCz.pm
