@@ -9,3 +9,5 @@
 ^\.
 ^[Mm]akefile$
 TODO
+MYMETA.json
+MYMETA.yml
