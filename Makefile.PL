@@ -12,7 +12,7 @@ WriteMakefile(
     AUTHOR              => 'Jan Pomikalek <xpomikal@fi.muni.cz>',
     VERSION_FROM        => 'lib/MetaTrans.pm',
     ABSTRACT_FROM       => 'lib/MetaTrans.pm',
-    LICENSE             => 'perl',
+    LICENSE             => 'perl_5',
     EXE_FILES           => [ 'bin/metatrans', 'bin/runtrans' ],
     PREREQ_PM => {
         'Config::Find'          => 0,
