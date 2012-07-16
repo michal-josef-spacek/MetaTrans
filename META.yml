@@ -1,8 +1,8 @@
 ---
 abstract: 'Perl module for structured errors.'
 author:
-  - 'Michal Špaček <skim@cpan.org>'
   - 'Jan Pomikalek <xpomikal@fi.muni.cz>'
+  - 'Michal Špaček <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:
