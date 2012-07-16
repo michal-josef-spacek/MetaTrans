@@ -1,0 +1,42 @@
+---
+abstract: 'Perl module for structured errors.'
+author:
+  - 'Michal Špaček <skim@cpan.org>'
+  - 'Jan Pomikalek <xpomikal@fi.muni.cz>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl-5
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MetaTrans
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Config::Find: 0
+  Config::General: 0
+  HTML::Entities: 0
+  HTTP::Request: 0
+  HTTP::Response: 0
+  LWP::UserAgent: 0
+  Proc::SyncExec: 0
+  Tk: 804.027
+  Tk::BrowseEntry: 0
+  Tk::DialogBox: 0
+  Tk::HList: 0
+  Tk::ItemStyle: 0
+  Tk::LabFrame: 0
+  Tk::ROText: 0
+  URI::Escape: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MetaTrans
+  homepage: https://github.com/tupinek/MetaTrans
+  repository: git://github.com/tupinek/MetaTrans
+version: 1.06

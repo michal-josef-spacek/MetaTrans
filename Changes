@@ -3,6 +3,7 @@ Revision history for Perl extension MetaTrans
 v1.06 (????/??/??) Michal Špaček
 - rewrote cvs revision numbers to static numbers 
 - added MetaTrans::LinguaTranslateGoogle
+- rewrite build system.
 
 v1.05 (2009/09/03) Michal Špaček
 - fixed bug with procedure calling from Config::General.

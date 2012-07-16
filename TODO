@@ -27,7 +27,6 @@ TODO
 22. Plugin pro http://dictionary.cambridge.org/
     (několik slovníků, idiomy, frázová slovesa…)
 23. Dodelat Metatrans::LinguaTranslateGoogle.
-24. Predelat build system na standardni, ktery pouzivam.
 25. Predelat testy na me standardni.
 26.
 
@@ -44,3 +43,6 @@ OK [20090905] skim
 
 10. Plugin pro slovnik.zcu.cz
 OK [20090905] skim
+
+24. Predelat build system na standardni, ktery pouzivam.
+OK [20120716] skim
