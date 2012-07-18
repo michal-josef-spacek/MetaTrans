@@ -6,18 +6,20 @@ MetaTrans::LinguaTranslateGoogle - MetaTrans plug-in for Lingua::Translate::Goog
 
 package MetaTrans::LinguaTranslateGoogle;
 
+# Pragmas.
+use base qw(MetaTrans::Base);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA);
-use MetaTrans::Base qw(convert_to_utf8);
 
+# Modules.
 use Encode qw(decode_utf8 encode);
-use Lingua::Translate::Google;
 use HTTP::Request;
+use Lingua::Translate::Google;
+use MetaTrans::Base qw(convert_to_utf8);
 use URI::Escape;
 
-$VERSION = 1.06;
-@ISA     = qw(MetaTrans::Base);
+# Version.
+our $VERSION = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 
