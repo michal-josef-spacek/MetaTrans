@@ -1,7 +1,16 @@
-bin/metatrans			# Perl/Tk frontend to MetaTrans.pm
-bin/runtrans			# auxiliary script, which should only be run by MetaTrans.pm
-Changes				# changelog
-config/metatrans.conf		# configuration file for metatrans
+bin/metatrans
+bin/runtrans
+Changes
+config/metatrans.conf
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Scripts.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
 lib/MetaTrans.pm
 lib/MetaTrans/Base.pm
 lib/MetaTrans/Languages.pm
@@ -13,8 +22,46 @@ lib/MetaTrans/SmsCz.pm
 lib/MetaTrans/UltralinguaNet.pm
 lib/MetaTrans/WordbookCz.pm
 Makefile.PL
-MANIFEST
-MANIFEST.SKIP
+MANIFEST			This list of files
+META.yml
 README
-t/00.load.t			# load test
-t/pod.t				# pod coverage test
+t/MetaTrans-Base/00-use.t
+t/MetaTrans-Base/01-version.t
+t/MetaTrans-Base/02-pod_coverage.t
+t/MetaTrans-Base/03-pod.t
+t/MetaTrans-Languages/00-use.t
+t/MetaTrans-Languages/01-version.t
+t/MetaTrans-Languages/02-pod_coverage.t
+t/MetaTrans-Languages/03-pod.t
+t/MetaTrans-LinguaTranslateGoogle/00-use.t
+t/MetaTrans-LinguaTranslateGoogle/01-version.t
+t/MetaTrans-LinguaTranslateGoogle/02-pod_coverage.t
+t/MetaTrans-LinguaTranslateGoogle/03-pod.t
+t/MetaTrans-SeznamCz/00-use.t
+t/MetaTrans-SeznamCz/01-version.t
+t/MetaTrans-SeznamCz/02-pod_coverage.t
+t/MetaTrans-SeznamCz/03-pod.t
+t/MetaTrans-SlovnikCz/00-use.t
+t/MetaTrans-SlovnikCz/01-version.t
+t/MetaTrans-SlovnikCz/02-pod_coverage.t
+t/MetaTrans-SlovnikCz/03-pod.t
+t/MetaTrans-SlovnikZcuCz/00-use.t
+t/MetaTrans-SlovnikZcuCz/01-version.t
+t/MetaTrans-SlovnikZcuCz/02-pod_coverage.t
+t/MetaTrans-SlovnikZcuCz/03-pod.t
+t/MetaTrans-SmsCz/00-use.t
+t/MetaTrans-SmsCz/01-version.t
+t/MetaTrans-SmsCz/02-pod_coverage.t
+t/MetaTrans-SmsCz/03-pod.t
+t/MetaTrans-UltralinguaNet/00-use.t
+t/MetaTrans-UltralinguaNet/01-version.t
+t/MetaTrans-UltralinguaNet/02-pod_coverage.t
+t/MetaTrans-UltralinguaNet/03-pod.t
+t/MetaTrans-WordbookCz/00-use.t
+t/MetaTrans-WordbookCz/01-version.t
+t/MetaTrans-WordbookCz/02-pod_coverage.t
+t/MetaTrans-WordbookCz/03-pod.t
+t/MetaTrans/00-use.t
+t/MetaTrans/01-version.t
+t/MetaTrans/02-pod_coverage.t
+t/MetaTrans/03-pod.t
