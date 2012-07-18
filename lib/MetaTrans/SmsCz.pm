@@ -6,16 +6,18 @@ MetaTrans::SmsCz - MetaTrans plug-in for L<http://slovniky.sms.cz/>
 
 package MetaTrans::SmsCz;
 
+# Pragmas.
+use base qw(MetaTrans::Base);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA);
-use MetaTrans::Base qw(convert_to_utf8);
 
+# Modules.
 use Encode;
 use HTTP::Request;
+use MetaTrans::Base qw(convert_to_utf8);
 
-$VERSION = 1.06;
-@ISA     = qw(MetaTrans::Base);
+# Version.
+our $VERSION = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 

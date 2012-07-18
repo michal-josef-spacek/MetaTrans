@@ -15,15 +15,20 @@ L<http://www.loc.gov/marc/languages/>.
 
 package MetaTrans::Languages;
 
+# Pragmas.
+use base qw(Exporter);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA @EXPORT_OK);
-use Exporter;
 
-$VERSION   = 1.06;
-@ISA       = qw(Exporter);
-@EXPORT_OK = qw(is_known_lang get_lang_by_code get_code_by_lang
-    get_langs_hash get_langs_hash_rev);
+# Modules.
+use Readonly;
+
+# Constants.
+Readonly::Array our @EXPORT_OK => qw(is_known_lang get_lang_by_code
+    get_code_by_lang get_langs_hash get_langs_hash_rev);
+
+# Version.
+our $VERSION   = 1.06;
 
 my %Languages;      # code => language
 my %RevLanguages;   # language => code

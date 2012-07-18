@@ -6,16 +6,18 @@ MetaTrans::SeznamCz - MetaTrans plug-in for L<http://slovnik.seznam.cz/>
 
 package MetaTrans::SeznamCz;
 
+# Pragmas.
+use base qw(MetaTrans::Base);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA);
-use MetaTrans::Base;
 
+# Modules.
 use HTTP::Request;
+use MetaTrans::Base;
 use URI::Escape;
 
-$VERSION = 1.06;
-@ISA     = qw(MetaTrans::Base);
+# Version.
+our $VERSION = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 

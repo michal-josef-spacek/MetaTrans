@@ -69,20 +69,24 @@ L<MetaTrans::Base> for information on how to do so.
 
 package MetaTrans;
 
+# Pragmas.
+use base qw(Exporter);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA @EXPORT_OK);
-use Exporter;
-use MetaTrans::Base qw(:match_funcs);
 
+# Modules.
 use Carp;
 use Encode;
 use IO::Select;
+use MetaTrans::Base qw(:match_funcs);
 use Proc::SyncExec qw(sync_fhpopen_noshell sync_popen_noshell);
+use Readonly;
 
-$VERSION   = 1.06;
-@ISA       = qw(Exporter);
-@EXPORT_OK = qw(sort_translations);
+# Constants.
+Readonly::Array our @EXPORT_OK => qw(sort_translations);
+
+# Version.
+our $VERSION = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 

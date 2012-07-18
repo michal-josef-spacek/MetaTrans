@@ -27,6 +27,7 @@ requires:
   HTTP::Response: 0
   LWP::UserAgent: 0
   Proc::SyncExec: 0
+  Readonly: 0
   Tk: 804.027
   Tk::BrowseEntry: 0
   Tk::DialogBox: 0

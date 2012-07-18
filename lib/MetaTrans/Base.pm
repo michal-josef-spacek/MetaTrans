@@ -9,11 +9,12 @@ MetaTrans::Base - Abstract base class for creating meta-translator plug-ins
 
     package MetaTrans::MyPlugin;
 
-    use MetaTrans::Base;
-    use vars qw(@ISA);
-    @ISA = qw(MetaTrans::Base);
-
+    use base qw(MetaTrans::Base);
+    use strict;
+    use warnings;
+ 
     use HTTP::Request;
+    use MetaTrans::Base;
     use URI::Escape;
 
     sub new
@@ -158,36 +159,39 @@ on how to create a C<MetaTrans> plug-in derrived from C<MetaTrans::Base>.
 
 package MetaTrans::Base;
 
+# Pragmas.
+use base qw(Exporter);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA @EXPORT_OK %EXPORT_TAGS %ENV);
-use Exporter;
-use MetaTrans::Languages qw(get_lang_by_code is_known_lang);
 
+# Modules.
 use Carp;
 use Encode;
 use Getopt::Long;
 use HTML::Entities;
-use LWP::UserAgent;
 use HTTP::Response;
+use LWP::UserAgent;
+use MetaTrans::Languages qw(get_lang_by_code is_known_lang);
+use Readonly;
 
-$VERSION     = 1.06;
-@ISA         = qw(Exporter);
-@EXPORT_OK   = qw(is_exact_match is_match_at_start is_match_expr is_match_words
-    convert_to_utf8 M_EXACT M_START M_EXPR M_WORDS M_ALL);
-%EXPORT_TAGS = (
+# Constants.
+Readonly::Array our @EXPORT_OK => qw(is_exact_match is_match_at_start is_match_expr
+    is_match_words convert_to_utf8 M_EXACT M_START M_EXPR M_WORDS M_ALL);
+Readonly::Hash our %EXPORT_TAGS => (
     match_consts => [qw(M_EXACT M_START M_EXPR M_WORDS M_ALL)],
     match_funcs  => [qw(is_exact_match is_match_at_start is_match_expr
         is_match_words)],
 );
 
-
-# Expression matching types
+# Expression matching types.
 use constant M_EXACT => 1; # exact match
 use constant M_START => 2; # match at start
 use constant M_EXPR  => 3; # match expression
 use constant M_WORDS => 4; # match words
 use constant M_ALL   => 5; # match anything to anything
+
+# Version.
+our $VERSION     = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 

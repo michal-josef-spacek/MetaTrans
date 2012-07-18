@@ -20,6 +20,7 @@ requires 'HTTP::Request' => 0;
 requires 'HTTP::Response' => 0;
 requires 'LWP::UserAgent' => 0;
 requires 'Proc::SyncExec' => 0;
+requires 'Readonly' => 0;
 requires 'Tk' => 804.027;
 requires 'Tk::BrowseEntry' => 0;
 requires 'Tk::DialogBox' => 0;

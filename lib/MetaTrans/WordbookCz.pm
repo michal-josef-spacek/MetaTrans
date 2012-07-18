@@ -6,15 +6,17 @@ MetaTrans::WordbookCz - MetaTrans plug-in for L<http://www.wordbook.cz/>
 
 package MetaTrans::WordbookCz;
 
+# Pragmas.
+use base qw(MetaTrans::Base);
 use strict;
 use warnings;
-use vars qw($VERSION @ISA);
+
+# Modules.
+use HTTP::Request;
 use MetaTrans::Base;
 
-use HTTP::Request;
-
-$VERSION = 1.06;
-@ISA     = qw(MetaTrans::Base);
+# Version.
+our $VERSION = 1.06;
 
 =head1 CONSTRUCTOR METHODS
 
