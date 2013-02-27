@@ -14,7 +14,6 @@ inc/Module/Install/WriteAll.pm
 lib/MetaTrans.pm
 lib/MetaTrans/Base.pm
 lib/MetaTrans/Languages.pm
-lib/MetaTrans/LinguaTranslateGoogle.pm
 lib/MetaTrans/SeznamCz.pm
 lib/MetaTrans/SlovnikCz.pm
 lib/MetaTrans/SlovnikZcuCz.pm
@@ -33,10 +32,6 @@ t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
 t/MetaTrans-Languages/03-pod.t
-t/MetaTrans-LinguaTranslateGoogle/00-use.t
-t/MetaTrans-LinguaTranslateGoogle/01-version.t
-t/MetaTrans-LinguaTranslateGoogle/02-pod_coverage.t
-t/MetaTrans-LinguaTranslateGoogle/03-pod.t
 t/MetaTrans-SeznamCz/00-use.t
 t/MetaTrans-SeznamCz/01-version.t
 t/MetaTrans-SeznamCz/02-pod_coverage.t
