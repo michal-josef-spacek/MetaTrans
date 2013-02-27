@@ -10,7 +10,6 @@ abstract 'Perl module for structured errors.';
 author 'Jan Pomikalek <xpomikal@fi.muni.cz>';
 author 'Michal Špaček <skim@cpan.org>';
 install_script 'bin/metatrans';
-install_script 'bin/runtrans';
 license 'perl-5';
 name 'MetaTrans';
 requires 'Config::Find' => 0;

@@ -2,6 +2,7 @@ Revision history for Perl extension MetaTrans
 
 v1.06 (????/??/??) Michal Špaček
 - Add Test::NoWarnings to tests.
+- Move runtrans to App::MetaTrans::Runtrans module.
 - Rewrote cvs revision numbers to static numbers 
 - Rewrite build system.
 - Rewrite tests to my standard tests.

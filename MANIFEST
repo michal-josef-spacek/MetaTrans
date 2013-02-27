@@ -1,5 +1,4 @@
 bin/metatrans
-bin/runtrans
 Changes
 config/metatrans.conf
 inc/Module/Install.pm

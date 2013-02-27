@@ -3,7 +3,6 @@ TODO
 2. Opravit chybu vykreslovani, kde pri zadani ahoj pro cze2spa preklad na
    wordbook.cz se vrati dva radky v metatrans. Je to asi nekde v metatrans
    skriptu. runtrans funguje spravne.
-3. Do runtrans pridat osetreni neexistence modulu.
 6. Plugin pro Merriam-Webster
 7. Plugin pro Oxford.
 8. Plugin pro Urban Dictionary.
@@ -26,7 +25,8 @@ TODO
 21. Plugin pro http://www.rewin.cz/WebForm1.aspx
 22. Plugin pro http://dictionary.cambridge.org/
     (několik slovníků, idiomy, frázová slovesa…)
-26.
+26. Odstranit runtrans zminky z MetaTrans.pm a MetaTrans/Base.pm
+27.
 
 Applied
 =======
@@ -47,3 +47,6 @@ OK [20120716] skim
 
 25. Predelat testy na me standardni.
 OK [20120716] skim
+
+3. Do runtrans pridat osetreni neexistence modulu.
+NONE [20130227] skim
