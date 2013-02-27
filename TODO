@@ -26,7 +26,9 @@ TODO
 22. Plugin pro http://dictionary.cambridge.org/
     (několik slovníků, idiomy, frázová slovesa…)
 26. Odstranit runtrans zminky z MetaTrans.pm a MetaTrans/Base.pm
-27.
+27. Odstranit zminky o Perl/Tk.
+28. Odstranit "ugly hacks" z kodu.
+29.
 
 Applied
 =======

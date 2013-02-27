@@ -5,12 +5,6 @@ MetaTrans is a plug-in based Perl module for dealing with online translators
 like http://ultralingua.net/. It provides an interface for easy creation of
 multilingual metatranslators.
 
-The package also contains a Perl/Tk frontend to MetaTrans. To try it
-out type:
-
-    metatrans
-
-
 DOCUMENTATION
 =============
 
@@ -20,10 +14,8 @@ Please read
 
     man 3 MetaTrans
 
-first if you are a developer. Otherwise, you can only read
-
-    man 1 metatrans
-
+User application metatrans as Perl/Tk frontend to MetaTrans exists
+in App::MetaTrans Perl distribution. 
 
 INSTALLATION
 ============
@@ -35,12 +27,11 @@ To install this module type the following:
    make test
    make install
 
-
 COPYRIGHT AND LICENCE
 =====================
 
 Copyright (C) 2004 by Jan Pomikálek
-Copyright (C) 2009-2012 by Michal Špaček
+Copyright (C) 2009-2013 by Michal Špaček
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.4 or,

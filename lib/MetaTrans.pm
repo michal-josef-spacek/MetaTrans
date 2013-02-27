@@ -43,23 +43,12 @@ MetaTrans - Class for creating multilingual meta-translators
         print join("\n", @sorted_translations) . "\n";
     }
 
-You are also encouraged to trying the Perl/Tk frontend. Simply run
-
-    metatrans
-
 =head1 DESCRIPTION
 
 The C<MetaTrans> class provides an interface for making multilingual
 translations using multiple data sources (translators). Its design
 is especially suitable for extracting data from online translators
 like L<http://www.ultralingua.net/>.
-
-To do something useful a C<MetaTrans> object must be provided with
-plug-ins for extracting data from every source to be used. By now
-creating a plug-in from a scratch might be a bit complicated for 
-some ugly hacks had to be made in the originally clean design of
-C<MetaTrans> to make it working in Perl/Tk applications. Hopefully
-this is going to change in some of the future releases.
 
 Currently the only recommended way for creating C<MetaTrans> plug-ins
 is by derriving from the C<MetaTrans::Base> class. See
