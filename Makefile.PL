@@ -33,6 +33,7 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=MetaTrans';
 resources 'homepage' => 'https://github.com/tupinek/MetaTrans';
 resources 'repository' => 'git://github.com/tupinek/MetaTrans';
+test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
 version '1.06';
 
