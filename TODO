@@ -28,7 +28,9 @@ TODO
 26. Odstranit runtrans zminky z MetaTrans.pm a MetaTrans/Base.pm
 27. Odstranit zminky o Perl/Tk.
 28. Odstranit "ugly hacks" z kodu.
-29.
+29. Presunout veci co se tykaji konkretniho uziti pryc odsud? (konkretni
+    pluginy)
+30.
 
 Applied
 =======
