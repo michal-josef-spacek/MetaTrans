@@ -4,6 +4,7 @@ v1.06 (????/??/??) Michal Špaček
 - Add Test::NoWarnings to tests.
 - Move runtrans to App::MetaTrans::Runtrans module.
 - Move metatrans to App::MetaTrans module.
+- Move MetaTrans::SeznamCz to standalone Perl module distribution.
 - Move MetaTrans::UltralinguaNet to standalone Perl module distribution.
 - Move MetaTrans::WordbookCz to standalone Perl module distribution.
 - Rewrote cvs revision numbers to static numbers 
