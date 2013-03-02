@@ -26,13 +26,15 @@ no_index:
     - inc
     - t
 requires:
+  Carp: 0
+  Encode: 0
+  Getopt::Long: 0
   HTML::Entities: 0
-  HTTP::Request: 0
   HTTP::Response: 0
+  IO::Select: 0
   LWP::UserAgent: 0
   Proc::SyncExec: 0
   Readonly: 0
-  URI::Escape: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MetaTrans
   homepage: https://github.com/tupinek/MetaTrans
