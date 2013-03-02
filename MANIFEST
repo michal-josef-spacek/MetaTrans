@@ -10,7 +10,6 @@ inc/Module/Install/WriteAll.pm
 lib/MetaTrans.pm
 lib/MetaTrans/Base.pm
 lib/MetaTrans/Languages.pm
-lib/MetaTrans/SlovnikCz.pm
 lib/MetaTrans/SlovnikZcuCz.pm
 lib/MetaTrans/SmsCz.pm
 Makefile.PL
@@ -25,10 +24,6 @@ t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
 t/MetaTrans-Languages/03-pod.t
-t/MetaTrans-SlovnikCz/00-use.t
-t/MetaTrans-SlovnikCz/01-version.t
-t/MetaTrans-SlovnikCz/02-pod_coverage.t
-t/MetaTrans-SlovnikCz/03-pod.t
 t/MetaTrans-SlovnikZcuCz/00-use.t
 t/MetaTrans-SlovnikZcuCz/01-version.t
 t/MetaTrans-SlovnikZcuCz/02-pod_coverage.t
