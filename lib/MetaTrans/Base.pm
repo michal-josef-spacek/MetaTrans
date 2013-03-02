@@ -166,7 +166,7 @@ use warnings;
 
 # Modules.
 use Carp;
-use Encode;
+use Encode qw(decode decode_utf8 encode_utf8 is_utf8);
 use Getopt::Long;
 use HTML::Entities;
 use HTTP::Response;
@@ -1051,8 +1051,8 @@ format> (see L<Encode>).
 sub strip_grammar_info
 {
     my $expr = shift;
-    $expr =  Encode::decode_utf8($expr)
-        unless Encode::is_utf8($expr);
+    $expr =  decode_utf8($expr)
+        unless is_utf8($expr);
     $expr =~ s/\([^)]*\)//g;
     #$expr =~ s/, (r|e|s)\s*$//;
     $expr =~ s/;.*//;
@@ -1076,12 +1076,12 @@ sub convert_to_utf8
     my $input_encoding = shift;
     my $string         = shift;
 
-    $string = Encode::decode($input_encoding, $string);
+    $string = decode($input_encoding, $string);
     my $str_unescaped = HTML::Entities::decode_entities($string);
 
     # $str_escaped might be in Perl's internal format, need to encode it
-    return Encode::is_utf8($str_unescaped) ?
-        Encode::encode_utf8($str_unescaped) :
+    return is_utf8($str_unescaped) ?
+        encode_utf8($str_unescaped) :
         $str_unescaped;
 }
 

@@ -65,7 +65,7 @@ use warnings;
 
 # Modules.
 use Carp;
-use Encode;
+use Encode qw(decode_utf8 is_utf8);
 use IO::Select;
 use MetaTrans::Base qw(:match_funcs);
 use Proc::SyncExec qw(sync_fhpopen_noshell sync_popen_noshell);
@@ -724,10 +724,10 @@ sub _eq_stripped
     my $trans1 = shift;
     my $trans2 = shift;
 
-    $trans1 = Encode::decode_utf8($trans1)
-        unless Encode::is_utf8($trans1);
-    $trans2 = Encode::decode_utf8($trans2)
-        unless Encode::is_utf8($trans2);
+    $trans1 = decode_utf8($trans1)
+        unless is_utf8($trans1);
+    $trans2 = decode_utf8($trans2)
+        unless is_utf8($trans2);
 
     my ($left1, $right1) = split(/ = /, $trans1);
     my ($left2, $right2) = split(/ = /, $trans2);
