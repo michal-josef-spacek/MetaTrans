@@ -6,7 +6,6 @@ TODO
 6. Plugin pro Merriam-Webster
 7. Plugin pro Oxford.
 8. Plugin pro Urban Dictionary.
-9. Plugin pro Wiktionary.
 11. Plugin pro dicts.info
 12. Kdyz nic nenajde, tak se hodi warning nekde v MetaTrans.pm (648)
     Use of uninitialized value $_ in length at /usr/local/share/perl/5.10.0/MetaTrans.pm line 648.
@@ -54,3 +53,7 @@ OK [20120716] skim
 
 3. Do runtrans pridat osetreni neexistence modulu.
 NONE [20130227] skim
+
+9. Plugin pro Wiktionary.
+Move to MetaTrans-Wiktionary Perl module distribution.
+NONE [20130302] skim
