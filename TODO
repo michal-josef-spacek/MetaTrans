@@ -3,10 +3,8 @@ TODO
 2. Opravit chybu vykreslovani, kde pri zadani ahoj pro cze2spa preklad na
    wordbook.cz se vrati dva radky v metatrans. Je to asi nekde v metatrans
    skriptu. runtrans funguje spravne.
-6. Plugin pro Merriam-Webster
-7. Plugin pro Oxford.
 8. Plugin pro Urban Dictionary.
-11. Plugin pro dicts.info
+Vykladovy slovnik, na to neni MetaTrans pripaven.
 12. Kdyz nic nenajde, tak se hodi warning nekde v MetaTrans.pm (648)
     Use of uninitialized value $_ in length at /usr/local/share/perl/5.10.0/MetaTrans.pm line 648.
 13. v metatrans skriptu by bylo dobre zobrazovat, ze z daneho serveru neprisly
@@ -17,13 +15,6 @@ TODO
     Idealni by bylo tady mit 639-3 zkratky.
 16. Chyba pri pouziti slovnik.seznam.cz. Kdyz zadam krtek v eng2cze, tak
     nenalezne nic a vrati preklad cze2eng. Coz nemam osetrene.
-17. Plugin pro http://slovnik.azet.sk/
-18. Plugin pro http://slovnik.cyberspace.sk/
-19. Plugin pro http://webslovnik.zoznam.sk/
-20. Plugin pro http://slovniky.lingea.cz/
-21. Plugin pro http://www.rewin.cz/WebForm1.aspx
-22. Plugin pro http://dictionary.cambridge.org/
-    (několik slovníků, idiomy, frázová slovesa…)
 26. Odstranit runtrans zminky z MetaTrans.pm a MetaTrans/Base.pm
 27. Odstranit zminky o Perl/Tk.
 28. Odstranit "ugly hacks" z kodu.
@@ -56,4 +47,41 @@ NONE [20130227] skim
 
 9. Plugin pro Wiktionary.
 Move to MetaTrans-Wiktionary Perl module distribution.
+NONE [20130302] skim
+
+11. Plugin pro dicts.info
+Move to MetaTrans-DictsInfo Perl module distribution.
+NONE [20130302] skim
+
+17. Plugin pro http://slovnik.azet.sk/
+Move to MetaTrans-SlovnikAzetSk Perl module distribution.
+NONE [20130302] skim
+
+18. Plugin pro http://slovnik.cyberspace.sk/
+Move to MetaTrans-SlovnikCyberspaceSk Perl module distribution.
+NONE [20130302] skim
+
+19. Plugin pro http://webslovnik.zoznam.sk/
+Move to MetaTrans-WebslovnikZoznamSk Perl module distribution.
+NONE [20130302] skim
+
+20. Plugin pro http://slovniky.lingea.cz/
+Move to MetaTrans-SlovnikyLingeaCz Perl module distribution.
+NONE [20130302] skim
+
+21. Plugin pro http://www.rewin.cz/WebForm1.aspx
+Move to MetaTrans-RewinCz Perl module distribution.
+NONE [20130302] skim
+
+22. Plugin pro http://dictionary.cambridge.org/
+    (několik slovníků, idiomy, frázová slovesa…)
+Move to MetaTrans-DictionaryCambridgeOrg Perl module distribution.
+NONE [20130302] skim
+
+7. Plugin pro Oxford.
+Move to MetaTrans-OxforddictionariesCom Perl module distribution.
+NONE [20130302] skim
+
+6. Plugin pro Merriam-Webster
+Move to MetaTrans-MerriamWebsterCom Perl module distribution.
 NONE [20130302] skim
