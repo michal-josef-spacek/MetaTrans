@@ -15,7 +15,6 @@ lib/MetaTrans/SlovnikCz.pm
 lib/MetaTrans/SlovnikZcuCz.pm
 lib/MetaTrans/SmsCz.pm
 lib/MetaTrans/UltralinguaNet.pm
-lib/MetaTrans/WordbookCz.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
@@ -48,10 +47,6 @@ t/MetaTrans-UltralinguaNet/00-use.t
 t/MetaTrans-UltralinguaNet/01-version.t
 t/MetaTrans-UltralinguaNet/02-pod_coverage.t
 t/MetaTrans-UltralinguaNet/03-pod.t
-t/MetaTrans-WordbookCz/00-use.t
-t/MetaTrans-WordbookCz/01-version.t
-t/MetaTrans-WordbookCz/02-pod_coverage.t
-t/MetaTrans-WordbookCz/03-pod.t
 t/MetaTrans/00-use.t
 t/MetaTrans/01-version.t
 t/MetaTrans/02-pod_coverage.t
