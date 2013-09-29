@@ -18,10 +18,16 @@ t/MetaTrans-Base/00-use.t
 t/MetaTrans-Base/01-version.t
 t/MetaTrans-Base/02-pod_coverage.t
 t/MetaTrans-Base/03-pod.t
+t/MetaTrans-Base/04-new.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
 t/MetaTrans-Languages/03-pod.t
+t/MetaTrans-Languages/04-get_code_by_lang.t
+t/MetaTrans-Languages/05-get_lang_by_code.t
+t/MetaTrans-Languages/06-get_langs_hash.t
+t/MetaTrans-Languages/07-get_langs_hash_rev.t
+t/MetaTrans-Languages/08-is_known_lang.t
 t/MetaTrans/00-use.t
 t/MetaTrans/01-version.t
 t/MetaTrans/02-pod_coverage.t
