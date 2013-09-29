@@ -9,7 +9,7 @@
  - Move MetaTrans::SlovnikZcuCz to standalone Perl module distribution.
  - Move MetaTrans::UltralinguaNet to standalone Perl module distribution.
  - Move MetaTrans::WordbookCz to standalone Perl module distribution.
- - Rewrote cvs revision numbers to static numbers 
+ - Rewrite CVS revision numbers to static numbers.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
  - Rewrite build system.
  - Rewrite tests to my standard tests.
