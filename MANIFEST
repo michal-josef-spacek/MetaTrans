@@ -19,6 +19,9 @@ t/MetaTrans-Base/01-version.t
 t/MetaTrans-Base/02-pod_coverage.t
 t/MetaTrans-Base/03-pod.t
 t/MetaTrans-Base/04-new.t
+t/MetaTrans-Base/05-host_server.t
+t/MetaTrans-Base/06-matching.t
+t/MetaTrans-Base/07-script_name.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
@@ -32,3 +35,4 @@ t/MetaTrans/00-use.t
 t/MetaTrans/01-version.t
 t/MetaTrans/02-pod_coverage.t
 t/MetaTrans/03-pod.t
+t/MetaTrans/04-new.t
