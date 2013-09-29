@@ -22,6 +22,7 @@ t/MetaTrans-Base/04-new.t
 t/MetaTrans-Base/05-host_server.t
 t/MetaTrans-Base/06-matching.t
 t/MetaTrans-Base/07-script_name.t
+t/MetaTrans-Base/08-set_languages.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
