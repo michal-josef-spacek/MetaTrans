@@ -1,3 +1,5 @@
+=encoding utf8
+
 =head1 NAME
 
 MetaTrans::Base - Abstract base class for creating meta-translator plug-ins

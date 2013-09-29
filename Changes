@@ -2,6 +2,7 @@
  [Michal Špaček]
  - Add Test::NoWarnings to tests.
  - Add VERSION to doc.
+ - Add utf8 encoding to doc.
  - Move runtrans to App::MetaTrans::Runtrans module.
  - Move metatrans to App::MetaTrans module.
  - Move MetaTrans::SeznamCz to standalone Perl module distribution.

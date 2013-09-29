@@ -1,3 +1,5 @@
+=encoding utf8
+
 =head1 NAME
 
 MetaTrans - Class for creating multilingual meta-translators
