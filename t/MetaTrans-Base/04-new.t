@@ -4,11 +4,14 @@ use warnings;
 
 # Modules.
 use MetaTrans::Base;
-use Test::More 'tests' => 3;
+use Test::More 'tests' => 4;
 use Test::NoWarnings;
 
 # Test.
 my $obj = MetaTrans::Base->new;
+isa_ok($obj, 'MetaTrans::Base');
+
+# Test.
 is_deeply(
 	$obj,
 	{
