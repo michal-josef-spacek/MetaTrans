@@ -1,56 +1,60 @@
-Revision history for Perl extension MetaTrans
+1.06 
+ [Michal Špaček]
+ - Add Test::NoWarnings to tests.
+ - Move runtrans to App::MetaTrans::Runtrans module.
+ - Move metatrans to App::MetaTrans module.
+ - Move MetaTrans::SeznamCz to standalone Perl module distribution.
+ - Move MetaTrans::SlovnikCz to standalone Perl module distribution.
+ - Move MetaTrans::SmsCz to standalone Perl module distribution.
+ - Move MetaTrans::SlovnikZcuCz to standalone Perl module distribution.
+ - Move MetaTrans::UltralinguaNet to standalone Perl module distribution.
+ - Move MetaTrans::WordbookCz to standalone Perl module distribution.
+ - Rewrote cvs revision numbers to static numbers 
+ - Rewrite Changes file to CPAN::Changes::SPEC format.
+ - Rewrite build system.
+ - Rewrite tests to my standard tests.
 
-v1.06 (????/??/??) Michal Špaček
-- Add Test::NoWarnings to tests.
-- Move runtrans to App::MetaTrans::Runtrans module.
-- Move metatrans to App::MetaTrans module.
-- Move MetaTrans::SeznamCz to standalone Perl module distribution.
-- Move MetaTrans::SlovnikCz to standalone Perl module distribution.
-- Move MetaTrans::SmsCz to standalone Perl module distribution.
-- Move MetaTrans::SlovnikZcuCz to standalone Perl module distribution.
-- Move MetaTrans::UltralinguaNet to standalone Perl module distribution.
-- Move MetaTrans::WordbookCz to standalone Perl module distribution.
-- Rewrote cvs revision numbers to static numbers 
-- Rewrite build system.
-- Rewrite tests to my standard tests.
+1.05 2009-09-03
+ [Michal Špaček]
+ - fixed bug with procedure calling from Config::General.
+ - updated MetaTrans::WordbookCz because of new interface
+   of http://www.wordbook.cz/
+ - updated MetaTrans::SmsCz because of new interface of http://www.sms.cz/
+ - updated MetaTrans::SlovnikCz because of new interface
+   of http://www.slovnik.cz/
+ - updated MetaTrans::SeznamCz because of new interface
+   of http://slovnik.seznam.cz/
+ - updated MetaTrans::UltralinguaNet because of new interface
+   of http://ultralingua.net/
+ - removed some warnings in bin/metatrans
+ - added MetaTrans::SlovnikZcuCz for http://slovnik.zcu.cz/
 
-v1.05 (2009/09/03) Michal Špaček
-- fixed bug with procedure calling from Config::General.
-- updated MetaTrans::WordbookCz because of new interface
-  of http://www.wordbook.cz/
-- updated MetaTrans::SmsCz because of new interface of http://www.sms.cz/
-- updated MetaTrans::SlovnikCz because of new interface
-  of http://www.slovnik.cz/
-- updated MetaTrans::SeznamCz because of new interface
-  of http://slovnik.seznam.cz/
-- updated MetaTrans::UltralinguaNet because of new interface
-  of http://ultralingua.net/
-- removed some warnings in bin/metatrans
-- added MetaTrans::SlovnikZcuCz for http://slovnik.zcu.cz/
+1.04 2005-03-07
+ [Jan Pomikálek]
+ - updated MetaTrans::WordbookCz because of new interface
+   of http://www.wordbook.cz/
+ - fixed another bug in MetaTrans::sort_translations function
 
-v1.04 (2005/03/07) Jan Pomikálek
-- updated MetaTrans::WordbookCz because of new interface
-  of http://www.wordbook.cz/
-- fixed another bug in MetaTrans::sort_translations function
+1.03 2005-01-04
+ [Jan Pomikálek]
+ - updated MetaTrans::UltralinguaNet because of new interface
+   of http://ultralingua.net/
+ - fixed a bug in MetaTrans::sort_translations function
+ - added cookies support
+ - some minor bug-fixes in metatrans
 
-v1.03 (2005/01/04) Jan Pomikálek
-- updated MetaTrans::UltralinguaNet because of new interface
-  of http://ultralingua.net/
-- fixed a bug in MetaTrans::sort_translations function
-- added cookies support
-- some minor bug-fixes in metatrans
+1.02 2004-12-15
+ [Jan Pomikálek]
+ - fixed a bug, which caused trouble when plugins returned no
+   translations for given input expression
+ - updated translations sorting algorithm towards better performance
+   on input expressions consisting of multiple words
 
-v1.02 (2004/12/15) Jan Pomikálek
-- fixed a bug, which caused trouble when plugins returned no
-  translations for given input expression
-- updated translations sorting algorithm towards better performance
-  on input expressions consisting of multiple words
-
-v1.01 (2004/12/13) Jan Pomikálek
-- the very first release
-- 5 plug-ins provided for 5 online translators:
-    - MetaTrans::UltralinguaNet for http://ultralingua.net/
-    - MetaTrans::SlovnikCz      for http://www.slovnik.cz/
-    - MetaTrans::SeznamCz       for http://slovnik.seznam.cz/
-    - MetaTrans::SmsCz          for http://slovniky.sms.cz/
-    - MetaTrans::WordbookCz     for http://www.wordbook.cz/
+1.01 2004-12-13
+ [Jan Pomikálek]
+ - the very first release
+ - MetaTrans::UltralinguaNet plugin for http://ultralingua.net/
+ - MetaTrans::SlovnikCz plugin      for http://www.slovnik.cz/
+ - MetaTrans::SeznamCz plugin       for http://slovnik.seznam.cz/
+ - MetaTrans::SmsCz plugin          for http://slovniky.sms.cz/
+ - MetaTrans::WordbookCz plugin     for http://www.wordbook.cz/
