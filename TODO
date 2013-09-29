@@ -20,7 +20,9 @@ Vykladovy slovnik, na to neni MetaTrans pripaven.
 28. Odstranit "ugly hacks" z kodu.
 29. Presunout veci co se tykaji konkretniho uziti pryc odsud? (konkretni
     pluginy)
-30.
+30. V MetaTrans::Base kdyz nastavuji host_server, tak pri nastaveni to vraci
+    minulou hodnotu. Je to smyslpne?
+31.
 
 Applied
 =======
