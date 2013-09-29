@@ -26,8 +26,8 @@ use warnings;
 use Readonly;
 
 # Constants.
-Readonly::Array our @EXPORT_OK => qw(is_known_lang get_lang_by_code
-    get_code_by_lang get_langs_hash get_langs_hash_rev);
+Readonly::Array our @EXPORT_OK => qw(get_code_by_lang get_lang_by_code
+    get_langs_hash get_langs_hash_rev is_known_lang);
 
 # Version.
 our $VERSION   = 1.06;
