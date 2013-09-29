@@ -820,3 +820,7 @@ under the same terms as Perl itself.
 
 L<MetaTrans::Base>, L<MetaTrans::Languages>, L<MetaTrans::UltralinguaNet>,
 L<Encode>
+
+=head1 VERSION
+
+1.06

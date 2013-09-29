@@ -1358,3 +1358,7 @@ under the same terms as Perl itself.
 
 L<MetaTrans>, L<MetaTrans::Languages>, L<MetaTrans::UltralinguaNet>,
 L<HTTP::Request>, L<URI::Escape>
+
+=head1 VERSION
+
+1.06

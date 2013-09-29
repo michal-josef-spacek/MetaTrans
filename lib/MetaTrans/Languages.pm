@@ -1000,3 +1000,7 @@ Copyright 2004 Jan Pomikalek, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
+
+=head1 VERSION
+
+1.06
