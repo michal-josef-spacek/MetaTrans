@@ -235,7 +235,10 @@ sub new
 
     foreach my $attr (keys %defaults)
     {
+# XXX SKIM Fix problem with default match_at_bounds = 1.
         $self->{$attr} = $options{$attr} || $defaults{$attr};
+#	$self->{$attr} = defined $options{$attr} ? $options{$attr}
+#		: $defaults{$attr};
     }
 
     return $self;
