@@ -16,7 +16,7 @@
  - Rewrite Changes file to CPAN::Changes::SPEC format.
  - Rewrite build system.
  - Rewrite tests to my standard tests.
- - Update Module::Install to 1.08 version.
+ - Update Module::Install to 1.10 version.
 
 1.05 2009-09-03
  [Michal Špaček]
