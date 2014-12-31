@@ -20,11 +20,12 @@ t/MetaTrans-Base/02-pod_coverage.t
 t/MetaTrans-Base/03-pod.t
 t/MetaTrans-Base/04-new.t
 t/MetaTrans-Base/05-get_all_src_lang_codes.t
-t/MetaTrans-Base/06-host_server.t
-t/MetaTrans-Base/07-is_supported_dir.t
-t/MetaTrans-Base/08-matching.t
-t/MetaTrans-Base/09-script_name.t
-t/MetaTrans-Base/10-set_languages.t
+t/MetaTrans-Base/06-get_dest_lang_codes_for_src_lang_code.t
+t/MetaTrans-Base/07-host_server.t
+t/MetaTrans-Base/08-is_supported_dir.t
+t/MetaTrans-Base/09-matching.t
+t/MetaTrans-Base/10-script_name.t
+t/MetaTrans-Base/11-set_languages.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
