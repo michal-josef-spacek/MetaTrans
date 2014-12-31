@@ -24,11 +24,12 @@ t/MetaTrans-Base/06-get_all_src_lang_codes.t
 t/MetaTrans-Base/07-get_dest_lang_codes_for_src_lang_code.t
 t/MetaTrans-Base/08-host_server.t
 t/MetaTrans-Base/09-is_supported_dir.t
-t/MetaTrans-Base/10-matching.t
-t/MetaTrans-Base/11-script_name.t
-t/MetaTrans-Base/12-set_languages.t
-t/MetaTrans-Base/13-strip_grammar_info.t
-t/MetaTrans-Base/14-timeout.t
+t/MetaTrans-Base/10-match_at_bounds.t
+t/MetaTrans-Base/11-matching.t
+t/MetaTrans-Base/12-script_name.t
+t/MetaTrans-Base/13-set_languages.t
+t/MetaTrans-Base/14-strip_grammar_info.t
+t/MetaTrans-Base/15-timeout.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
