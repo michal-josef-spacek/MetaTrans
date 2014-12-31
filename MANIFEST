@@ -27,6 +27,7 @@ t/MetaTrans-Base/09-is_supported_dir.t
 t/MetaTrans-Base/10-matching.t
 t/MetaTrans-Base/11-script_name.t
 t/MetaTrans-Base/12-set_languages.t
+t/MetaTrans-Base/13-strip_grammar_info.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
