@@ -838,8 +838,9 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<MetaTrans::Base>, L<MetaTrans::Languages>, L<MetaTrans::UltralinguaNet>,
-L<Encode>
+L<MetaTrans::Base>,
+L<MetaTrans::Languages>,
+L<Task::MetaTrans>.
 
 =head1 VERSION
 
