@@ -826,6 +826,16 @@ Copyright 2009-2014 Michal Špaček, All Rights Reserved.
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
+=head1 DEPENDENCIES
+
+L<Carp>,
+L<Encode>,
+L<Exporter>,
+L<IO::Select>,
+L<MetaTrans::Base>,
+L<Proc::SyncExec>,
+L<Readonly>.
+
 =head1 SEE ALSO
 
 L<MetaTrans::Base>, L<MetaTrans::Languages>, L<MetaTrans::UltralinguaNet>,
