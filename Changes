@@ -4,6 +4,7 @@
  - Add VERSION to doc.
  - Add utf8 encoding to doc.
  - Add tests.
+ - Improve COPYRIGHT & LICENSE and AUTHOR section in doc.
  - Move runtrans to App::MetaTrans::Runtrans module.
  - Move metatrans to App::MetaTrans module.
  - Move MetaTrans::SeznamCz to standalone Perl module distribution.
