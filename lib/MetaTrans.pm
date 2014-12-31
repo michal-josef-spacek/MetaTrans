@@ -475,6 +475,7 @@ sub get_translation
             $fh->close;
         }
 
+        # TODO If $translation is '', then this is bad.
         return ($translation, $self->_get_trans_by_id($translator_id))
             if $options{return_translators};
 
@@ -745,7 +746,7 @@ sub _eq_stripped
 sub _get_trans_by_id
 {
     my $self = shift;
-    my $id   = shift;
+    my $id   = shift || 0;
 
     return ${$self->{translators}}[$id];
 }
