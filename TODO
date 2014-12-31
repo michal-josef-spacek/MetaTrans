@@ -18,8 +18,6 @@ Vykladovy slovnik, na to neni MetaTrans pripaven.
 26. Odstranit runtrans zminky z MetaTrans.pm a MetaTrans/Base.pm
 27. Odstranit zminky o Perl/Tk.
 28. Odstranit "ugly hacks" z kodu.
-29. Presunout veci co se tykaji konkretniho uziti pryc odsud? (konkretni
-    pluginy)
 30. V MetaTrans::Base kdyz nastavuji host_server, tak pri nastaveni to vraci
     minulou hodnotu. Je to smyslpne?
 31.
@@ -87,3 +85,7 @@ NONE [20130302] skim
 6. Plugin pro Merriam-Webster
 Move to MetaTrans-MerriamWebsterCom Perl module distribution.
 NONE [20130302] skim
+
+29. Presunout veci co se tykaji konkretniho uziti pryc odsud? (konkretni
+    pluginy)
+OK [20141231] skim
