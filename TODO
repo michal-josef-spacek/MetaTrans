@@ -20,7 +20,10 @@ Vykladovy slovnik, na to neni MetaTrans pripaven.
 28. Odstranit "ugly hacks" z kodu.
 30. V MetaTrans::Base kdyz nastavuji host_server, tak pri nastaveni to vraci
     minulou hodnotu. Je to smyslpne?
-31.
+31. V testy pro unset_dir_1_to_1() metodu je resen unset na nenastavene hodnoty.
+    Bylo by dobre to delat i na nastavene a resit, jestli se odnastavily.
+    Pripadne pridat chybu, ze odnastavuji nenastavenou hodnotu.
+32.
 
 Applied
 =======
