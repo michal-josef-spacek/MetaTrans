@@ -822,7 +822,7 @@ Michal Špaček, C<< <skim@cpan.org> >>.
 
 Copyright 2004 Jan Pomikalek, All Rights Reserved.
 
-Copyright 2009-2014 Michal Špaček, All Rights Reserved.
+Copyright 2009-2015 Michal Špaček, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
