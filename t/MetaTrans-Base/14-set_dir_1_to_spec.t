@@ -17,7 +17,7 @@ eval {
 };
 $SIG{'__WARN__'} = $old;
 # XXX Remove this warning.
-like($EVAL_ERROR, qr{^Use of uninitialized value},
+like($EVAL_ERROR, qr{^Use of uninitialized value \$src_lang_code in hash element},
 	'Undefined source language code.');
 
 # Test.
