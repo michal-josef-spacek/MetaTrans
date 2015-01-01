@@ -3,9 +3,21 @@ use strict;
 use warnings;
 
 # Modules.
+use English;
 use MetaTrans::Base;
-use Test::More 'tests' => 6;
+use Test::More 'tests' => 7;
 use Test::NoWarnings;
+
+# Test.
+my $old = $SIG{'__WARN__'};
+$SIG{'__WARN__'} = sub { die $_[0]; };
+# XXX Remove this issue.
+eval {
+	MetaTrans::Base::strip_grammar_info();
+};
+$SIG{'__WARN__'} = $old;
+like($EVAL_ERROR, qr{^Use of uninitialized value \$expr in substitution},
+	'Undefined input value.');
 
 # Test.
 my $expr = 'foo ';
