@@ -54,7 +54,7 @@ is($ret, 1, "Set direction to 'ger' destination language code.");
 # Test.
 $obj->set_languages('rus', 'eng');
 $ret = $obj->set_dir_1_to_spec('cze', 'ger', 'rus', 'eng');
-is($ret, 3, "Set direction to 'ger', 'rus' and 'eng' desination ".
+is($ret, 3, "Set direction to 'ger', 'rus' and 'eng' destination ".
 	'languages codes.');
 
 # Test.
