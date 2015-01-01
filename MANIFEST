@@ -30,11 +30,12 @@ t/MetaTrans-Base/12-script_name.t
 t/MetaTrans-Base/13-set_dir_1_to_1.t
 t/MetaTrans-Base/14-set_dir_1_to_spec.t
 t/MetaTrans-Base/15-set_dir_1_to_all.t
-t/MetaTrans-Base/16-set_dir_spec_to_1.t
-t/MetaTrans-Base/17-set_languages.t
-t/MetaTrans-Base/18-strip_grammar_info.t
-t/MetaTrans-Base/19-timeout.t
-t/MetaTrans-Base/20-unset_dir_1_to_1.t
+t/MetaTrans-Base/16-set_dir_all_to_1.t
+t/MetaTrans-Base/17-set_dir_spec_to_1.t
+t/MetaTrans-Base/18-set_languages.t
+t/MetaTrans-Base/19-strip_grammar_info.t
+t/MetaTrans-Base/20-timeout.t
+t/MetaTrans-Base/21-unset_dir_1_to_1.t
 t/MetaTrans-Languages/00-use.t
 t/MetaTrans-Languages/01-version.t
 t/MetaTrans-Languages/02-pod_coverage.t
