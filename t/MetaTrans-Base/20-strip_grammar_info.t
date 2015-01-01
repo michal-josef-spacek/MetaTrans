@@ -5,7 +5,7 @@ use warnings;
 # Modules.
 use English;
 use MetaTrans::Base;
-use Test::More 'tests' => 7;
+use Test::More 'tests' => 8;
 use Test::NoWarnings;
 
 # Test.
@@ -40,7 +40,12 @@ $ret = MetaTrans::Base::strip_grammar_info($expr);
 is($ret, 'foo', 'Remove everything in parantheses.');
 
 # Test.
+$expr = 'foo+bar+baz';
+$ret = MetaTrans::Base::strip_grammar_info($expr);
+is($ret, 'foo bar baz', 'Substitute no word characters to spaces.');
+
+# Test.
 $expr = '+foo-';
 $ret = MetaTrans::Base::strip_grammar_info($expr);
-is($ret, 'foo', 'Substitute no word strings to spaces and remove first '.
+is($ret, 'foo', 'Substitute no word characters to spaces and remove first '.
 	'and last space.');
