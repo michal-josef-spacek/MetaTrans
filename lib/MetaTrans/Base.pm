@@ -235,8 +235,8 @@ sub new
 
     foreach my $attr (keys %defaults)
     {
-	$self->{$attr} = defined $options{$attr} ? $options{$attr}
-		: $defaults{$attr};
+        $self->{$attr} = defined $options{$attr} ? $options{$attr}
+            : $defaults{$attr};
     }
 
     return $self;
