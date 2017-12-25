@@ -8,7 +8,7 @@ use inc::Module::Install;
 # Definition.
 abstract 'Perl module for structured errors.';
 author 'Jan Pomikalek <xpomikal@fi.muni.cz>';
-author 'Michal Spacek <skim@cpan.org>';
+author 'Michal Josef Spacek <skim@cpan.org>';
 license 'perl-5';
 name 'MetaTrans';
 requires 'Carp' => 0;

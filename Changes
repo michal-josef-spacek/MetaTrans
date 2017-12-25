@@ -1,5 +1,5 @@
 1.06 
- [Michal Špaček]
+ [Michal Josef Špaček]
  - Add DEPENDENCIES section to doc.
  - Add Test::NoWarnings to tests.
  - Add VERSION to doc.
@@ -22,6 +22,7 @@
  - Rewrite build system.
  - Rewrite tests to my standard tests.
  - Update Module::Install to 1.18 version.
+ - Update author name.
 
 1.05 2009-09-03
  [Michal Špaček]

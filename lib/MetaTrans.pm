@@ -816,13 +816,13 @@ be notified of progress on your bug as I make changes.
 
 Jan Pomikalek, C<< <xpomikal@fi.muni.cz> >>,
 
-Michal Špaček, C<< <skim@cpan.org> >>.
+Michal Josef Špaček, C<< <skim@cpan.org> >>.
 
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2004 Jan Pomikalek, All Rights Reserved.
 
-Copyright 2009-2015 Michal Špaček, All Rights Reserved.
+Copyright 2009-2015 Michal Josef Špaček, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
