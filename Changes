@@ -6,6 +6,7 @@
  - Add utf8 encoding to doc.
  - Add tests.
  - Fix constructor parameter processing in MetaTrans::Base.
+ - Fix defined @__ARRAY__.
  - Fix warnings in _get_trans_by_id() and add TODO about it.
  - Improve COPYRIGHT & LICENSE and AUTHOR section in doc.
  - Improve SEE ALSO section in doc.

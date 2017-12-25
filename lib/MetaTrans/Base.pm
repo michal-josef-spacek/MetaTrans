@@ -402,7 +402,8 @@ sub default_dir
     my $dest_lang_code = shift;
 
     my @old_direction;
-    if (defined @{$self->{direction}} &&
+    if (defined $self->{direction} &&
+        ref $self->{direction} eq 'ARRAY' &&
         $self->is_supported_dir(@{$self->{direction}}))
     {
         @old_direction = @{$self->{direction}};
