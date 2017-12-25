@@ -994,11 +994,15 @@ be notified of progress on your bug as I make changes.
 
 =head1 AUTHOR
 
-Jan Pomikalek, C<< <xpomikal@fi.muni.cz> >>
+Jan Pomikalek, C<< <xpomikal@fi.muni.cz> >>,
+
+Michal Josef Špaček, C<< <skim@cpan.org> >>.
 
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2004 Jan Pomikalek, All Rights Reserved.
+
+Copyright 2017 Michal Josef Špaček, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
