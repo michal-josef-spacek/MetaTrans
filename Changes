@@ -18,6 +18,7 @@
  - Move MetaTrans::SlovnikZcuCz to standalone Perl module distribution.
  - Move MetaTrans::UltralinguaNet to standalone Perl module distribution.
  - Move MetaTrans::WordbookCz to standalone Perl module distribution.
+ - Remove lib directory in dist.
  - Rewrite CVS revision numbers to static numbers.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
  - Rewrite build system.
