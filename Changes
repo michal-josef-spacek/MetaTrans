@@ -5,6 +5,7 @@
  - Add VERSION to doc.
  - Add utf8 encoding to doc.
  - Add tests.
+ - Fix BUGS section in doc.
  - Fix constructor parameter processing in MetaTrans::Base.
  - Fix defined @__ARRAY__.
  - Fix warnings in _get_trans_by_id() and add TODO about it.
