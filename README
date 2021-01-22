@@ -15,7 +15,7 @@ Please read
     man 3 MetaTrans
 
 User application metatrans as Perl/Tk frontend to MetaTrans exists
-in App::MetaTrans Perl distribution. 
+in App::MetaTrans Perl distribution.
 
 INSTALLATION
 ============
