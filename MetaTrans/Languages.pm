@@ -988,6 +988,10 @@ __END__
 Please report any bugs or feature requests to
 L<https://github.com/michal-josef-spacek/Metatrans/issues>.
 
+=head1 REPOSITORY
+
+L<https://github.com/michal-josef-spacek/Metatrans>
+
 =head1 AUTHOR
 
 Jan Pomikalek, C<< <xpomikal@fi.muni.cz> >>,

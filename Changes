@@ -1,6 +1,7 @@
 1.06
  [Michal Josef Špaček]
  - Add DEPENDENCIES section to doc.
+ - Add REPOSITORY section to doc.
  - Add Test::NoWarnings to tests.
  - Add VERSION to doc.
  - Add utf8 encoding to doc.
