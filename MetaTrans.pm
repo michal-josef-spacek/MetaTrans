@@ -60,12 +60,10 @@ L<MetaTrans::Base> for information on how to do so.
 
 package MetaTrans;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Carp;
 use Encode qw(decode_utf8 is_utf8);
 use IO::Select;

@@ -17,12 +17,10 @@ L<http://www.loc.gov/marc/languages/>.
 
 package MetaTrans::Languages;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Readonly;
 
 # Constants.

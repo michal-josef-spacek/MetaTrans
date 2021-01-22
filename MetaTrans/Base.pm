@@ -161,12 +161,10 @@ on how to create a C<MetaTrans> plug-in derrived from C<MetaTrans::Base>.
 
 package MetaTrans::Base;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Carp;
 use Encode qw(decode decode_utf8 encode_utf8 is_utf8);
 use Getopt::Long;
