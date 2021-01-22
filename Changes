@@ -24,6 +24,7 @@
  - Rewrite build system.
  - Rewrite tests to my standard tests.
  - Rewrite to author tests.
+ - Rewrite rt to github issues.
  - Update Module::Install to 1.19 version.
  - Update author name.
  - Update copyright years.

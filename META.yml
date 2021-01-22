@@ -35,7 +35,7 @@ requires:
   Proc::SyncExec: 0
   Readonly: 0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MetaTrans
+  bugtracker: https://github.com/tupinek/MetaTrans/issues
   homepage: https://github.com/tupinek/MetaTrans
   repository: git://github.com/tupinek/MetaTrans
 version: '1.06'
