@@ -1010,3 +1010,5 @@ under the same terms as Perl itself.
 =head1 VERSION
 
 1.06
+
+=cut
