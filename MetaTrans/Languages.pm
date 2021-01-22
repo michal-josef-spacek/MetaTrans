@@ -1000,7 +1000,7 @@ Michal Josef Špaček, C<< <skim@cpan.org> >>.
 
 Copyright 2004 Jan Pomikalek, All Rights Reserved.
 
-Copyright 2017 Michal Josef Špaček, All Rights Reserved.
+Copyright 2017-2021 Michal Josef Špaček, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
