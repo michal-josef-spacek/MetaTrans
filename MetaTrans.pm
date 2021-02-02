@@ -282,7 +282,7 @@ sub get_dest_lang_codes_for_src_lang_code
 
 =item $mt->get_translators_for_direction($src_lang_code, $dest_lang_code)
 
-Retuns an array of enabled tranlators, which support the translation direction
+Returns an array of enabled tranlators, which support the translation direction
 from language with C<$src_lang_code> to language with C<$dest_lang_code>.
 
 =cut
