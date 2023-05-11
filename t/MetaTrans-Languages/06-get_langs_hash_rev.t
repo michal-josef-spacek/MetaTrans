@@ -307,7 +307,6 @@ is_deeply(
 		'Nahuatl' => 'nah',
 		'Nauru' => 'nau',
 		'Ndebele' => 'nbl',
-		'Ndebele' => 'nde',
 		'Ndonga' => 'ndo',
 		'Neapolitan Italian' => 'nap',
 		'Nepali' => 'nep',
